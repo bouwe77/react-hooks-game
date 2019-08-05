@@ -16,11 +16,13 @@ function useMove(initX = 10, initY = 10, direction) {
 
   useEffect(() => {
     if (x > settings.canvasWidth - settings.characterWidth) {
+      //...
     }
   }, [x]);
 
   useEffect(() => {
     if (y > settings.canvasHeight - settings.characterHeight) {
+      //...
     }
   }, [y]);
 
