@@ -16,13 +16,13 @@ function useMove(initX = 10, initY = 10, direction) {
 
   useEffect(() => {
     if (x > settings.canvasWidth - settings.characterWidth) {
-      //...
+      //TODO Do something when reached the edges of the canvas...
     }
   }, [x]);
 
   useEffect(() => {
     if (y > settings.canvasHeight - settings.characterHeight) {
-      //...
+      //TODO Do something when reached the edges of the canvas...
     }
   }, [y]);
 
