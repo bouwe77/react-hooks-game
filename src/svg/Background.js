@@ -1,9 +1,7 @@
 import React from "react";
 
-export default ({ settings }) => (
-  <rect
-    fill={settings.backgroundFill}
-    width={settings.canvasWidth}
-    height={settings.canvasHeight}
-  />
+import settings from "../settings";
+
+export default () => (
+  <rect fill="Lightgray" width={settings.canvasWidth} height={settings.canvasHeight} />
 );
